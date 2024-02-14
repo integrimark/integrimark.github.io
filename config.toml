@@ -1,6 +1,6 @@
 author = "Jérémie Lumbroso"
 baseURL = 'https://integrimark.github.io'
-copyright = "Open-source <a class=\"text-muted text-decoration-none\" href=\"https://github.com/integrimark/integrimark/blob/main/LICENSE.md\">LGPLv3</a> Licensed."
+copyright = "Open-source <a class=\"text-muted text-decoration-none\" href=\"https://github.com/integrimark/integrimark/blob/main/LICENSE.md\">LGPLv3</a> Licensed. Theme by <a class=\"text-muted text-decoration-none\" href=\"https://github.com/filipecarneiro/hugo-bootstrap-theme\">Filipe Carneiro</a>."
 title = "IntegriMark"
 
 timeZone = 'Europe/London'
