@@ -31,12 +31,27 @@ We pledge to act and interact in ways that contribute to an open, welcoming, div
       <description>Contact Open an issue on GitHub.</description>
     </item>
     <item>
+      <title>IntegriMark Mission Statement</title>
+      <link>https://integrimark.github.io/page/mission-statement/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://integrimark.github.io/page/mission-statement/</guid>
+      <description>IntegriMark Mission Statement This document outlines the mission of IntegriMark, the design rationale behind the tool, and its moral grounding.
+Purpose and Design Rationale: Addressing Systemic Disadvantages in Academia: IntegriMark is designed to mitigate the compounded systemic disadvantages faced by unprivileged students in academia. Privileged students often have access to resources and prior knowledge that unprivileged students lack. This disparity is exacerbated when unprivileged students are not given access to solutions that could aid their learning, further entrenching educational inequalities.</description>
+    </item>
+    <item>
       <title>Privacy Policy</title>
       <link>https://integrimark.github.io/privacy-policy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://integrimark.github.io/privacy-policy/</guid>
       <description>Privacy Policy TLDR: We do not use cookies and we do not collect any personal data.
 Website visitors No personal information is collected. No information is stored in the browser. No information is shared with, sent to or sold to third-parties. No information is shared with advertising companies. No information is mined and harvested for personal and behavioral trends. No information is monetized. Information we collect and what we use it for The server hosting this site can collect the following information:</description>
+    </item>
+    <item>
+      <title>Sample Watermarked Document</title>
+      <link>https://integrimark.github.io/page/sample-watermarked-document/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://integrimark.github.io/page/sample-watermarked-document/</guid>
+      <description>You can download a sample watermarked document here.</description>
     </item>
   </channel>
 </rss>
