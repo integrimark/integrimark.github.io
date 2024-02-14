@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Authors on IntegriMark</title>
+    <link>https://integrimark.github.io/authors/</link>
+    <description>Recent content in Authors on IntegriMark</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Open-source &lt;a class=&#34;text-muted text-decoration-none&#34; href=&#34;https://github.com/filipecarneiro/hugo-bootstrap-theme/blob/main/LICENSE&#34;&gt;MIT&lt;/a&gt; Licensed.</copyright>
+    <atom:link href="https://integrimark.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Filipe Carneiro</title>
+      <link>https://integrimark.github.io/authors/filipe-carneiro/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://integrimark.github.io/authors/filipe-carneiro/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Jérémie Lumbroso</title>
+      <link>https://integrimark.github.io/authors/jeremie-lumbroso/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://integrimark.github.io/authors/jeremie-lumbroso/</guid>
+      <description>Jérémie Lumbroso.</description>
+    </item>
+  </channel>
+</rss>
