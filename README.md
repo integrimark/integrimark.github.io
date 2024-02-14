@@ -1,2 +1,3 @@
-# hugo-landing-page
+# IntegriMark Landing Page
+
 Landing page for IntegriMark

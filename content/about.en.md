@@ -5,4 +5,4 @@ draft: false
 
 # About Us
 
-Made with ❤️ by the *Hugo Bootstrap Theme* [team](https://github.com/filipecarneiro/hugo-bootstrap-theme/graphs/contributors).
+Made with ❤️ by the *IntegriMark* [team](https://github.com/integrimark/integrimark/graphs/contributors).
