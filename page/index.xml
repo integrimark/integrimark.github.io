@@ -9,6 +9,13 @@
     <copyright>Open-source &lt;a class=&#34;text-muted text-decoration-none&#34; href=&#34;https://github.com/integrimark/integrimark/blob/main/LICENSE.md&#34;&gt;LGPLv3&lt;/a&gt; Licensed. Theme by &lt;a class=&#34;text-muted text-decoration-none&#34; href=&#34;https://github.com/filipecarneiro/hugo-bootstrap-theme&#34;&gt;Filipe Carneiro&lt;/a&gt;.</copyright>
     <atom:link href="https://integrimark.github.io/page/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Getting started with IntegriMark</title>
+      <link>https://integrimark.github.io/page/sample-walkthrough/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://integrimark.github.io/page/sample-walkthrough/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>IntegriMark Mission Statement</title>
       <link>https://integrimark.github.io/page/mission-statement/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

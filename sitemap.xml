@@ -3,12 +3,12 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://integrimark.github.io/about/</loc>
-    <lastmod>2024-02-13T20:07:05-05:00</lastmod>
+    <lastmod>2024-02-24T09:51:42-05:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://integrimark.github.io/authors/</loc>
-    <lastmod>2024-02-13T20:06:38-05:00</lastmod>
+    <lastmod>2024-02-24T09:51:42-05:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -17,67 +17,72 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://integrimark.github.io/code-of-conduct/</loc>
-    <lastmod>2024-02-13T17:24:35-05:00</lastmod>
+    <lastmod>2024-02-24T09:51:42-05:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://integrimark.github.io/contact/</loc>
-    <lastmod>2024-02-13T20:07:22-05:00</lastmod>
+    <lastmod>2024-02-24T09:51:42-05:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://integrimark.github.io/page/</loc>
-    <lastmod>2024-02-13T17:24:35-05:00</lastmod>
+    <lastmod>2024-02-24T09:51:42-05:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://integrimark.github.io/tags/featured/</loc>
-    <lastmod>2024-02-14T00:35:33-05:00</lastmod>
+    <lastmod>2024-02-24T10:15:48-05:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://integrimark.github.io/authors/filipe-carneiro/</loc>
-    <lastmod>2024-02-13T17:24:35-05:00</lastmod>
+    <lastmod>2024-02-24T09:51:42-05:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://integrimark.github.io/page/sample-walkthrough/</loc>
+    <lastmod>2024-02-24T10:15:48-05:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://integrimark.github.io/tags/index/</loc>
-    <lastmod>2024-02-13T17:24:35-05:00</lastmod>
+    <lastmod>2024-02-24T09:51:42-05:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://integrimark.github.io/</loc>
-    <lastmod>2024-02-14T00:35:33-05:00</lastmod>
+    <lastmod>2024-02-24T10:15:48-05:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://integrimark.github.io/page/mission-statement/</loc>
-    <lastmod>2024-02-14T00:35:33-05:00</lastmod>
+    <lastmod>2024-02-24T09:51:42-05:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://integrimark.github.io/authors/jeremie-lumbroso/</loc>
-    <lastmod>2024-02-13T20:06:38-05:00</lastmod>
+    <lastmod>2024-02-24T09:51:42-05:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://integrimark.github.io/post/</loc>
-    <lastmod>2024-02-13T17:24:35-05:00</lastmod>
+    <lastmod>2024-02-24T09:51:42-05:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://integrimark.github.io/tags/privacy/</loc>
-    <lastmod>2024-02-13T17:24:35-05:00</lastmod>
+    <lastmod>2024-02-24T09:51:42-05:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://integrimark.github.io/privacy-policy/</loc>
-    <lastmod>2024-02-13T17:24:35-05:00</lastmod>
+    <lastmod>2024-02-24T09:51:42-05:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://integrimark.github.io/page/sample-watermarked-document/</loc>
-    <lastmod>2024-02-14T00:33:01-05:00</lastmod>
+    <lastmod>2024-02-24T09:51:42-05:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -86,7 +91,7 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://integrimark.github.io/tags/</loc>
-    <lastmod>2024-02-14T00:35:33-05:00</lastmod>
+    <lastmod>2024-02-24T10:15:48-05:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>

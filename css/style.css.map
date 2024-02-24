@@ -1,7 +1,7 @@
 {
 	"version": 3,
 	"file": "style.css",
-	"sourceRoot": "/Users/jlumbroso/Programming/hugo-landing-page",
+	"sourceRoot": "/Users/jlumbroso/Programming/penn/integrimark.github.io",
 	"sources": [
 		"assets/sass/main.scss",
 		"themes/hugo-bootstrap-theme/assets/sass/bootstrap/_functions.scss",
