@@ -34,7 +34,7 @@
   <meta property="article:section" content="page" />
   
   
-    <meta property="article:modified_time" content="2024-03-05T13:18:14-05:00" />
+    <meta property="article:modified_time" content="2024-03-05T13:48:22-05:00" />
   
 
 
@@ -63,13 +63,13 @@
   "@type": "Article",
   "headline": "Getting Started with IntegriMark",
   "datePublished": "0001-01-01T00:00:00+00:00",
-  "dateModified": "2024-03-05T13:18:14-05:00",
+  "dateModified": "2024-03-05T13:48:22-05:00",
   "mainEntityOfPage": "https://integrimark.github.io",
   "publisher": {
     "@type": "Organization",
     "name": "IntegriMark"
   },
-  "wordcount" :  168 ,
+  "wordcount" :  476 ,
   "description": "Walking through an example repository to understand how to setup IntegriMark.",
   "keywords":  null 
 }
@@ -145,12 +145,24 @@
 </li>
 </ul>
 <p>In this guide we will be using the second scenario, and we will walk through the steps to set up a repository to use the <code>integrimark-publish-action</code> GitHub Action.</p>
-<h2 id="step-1-create-a-new-repository">Step 1: Create a new repository</h2>
-<p><img src="sshot1-integrimark-worflow.png" alt="Screenshot of the sample"></p>
-<p><img src="sshot2-github-token-permissions.png" alt="Screenshot of the sample"></p>
-<p><img src="sshot3-github-pages-deployment.png" alt="Screenshot of the sample"></p>
-<p><img src="sshot4-integrimark-passwords_json.png" alt="Screenshot of the sample"></p>
-<p><img src="sshot5-sample-mailing.png" alt="Screenshot of the sample"></p>
+<h2 id="step-1-create-a-new-vault-repository">Step 1: Create A New Vault Repository</h2>
+<p>For convenience, we call &ldquo;vault&rdquo; a repository that hosts and serves PDF files through IntegriMark.
+You can use the <a href="https://github.com/integrimark/integrimark-vault-template" target="_blank" rel="noopener"><code>integrimark-vault-template</code></a> template repository as a starting point to creating a new vault.</p>
+<p><img src="sshot1-integrimark-worflow.png" alt="Sample IntegriMark Vault repository"></p>
+<h2 id="step-2-ensure-github-token-permissions-are-set-correctly">Step 2: Ensure GitHub Token Permissions Are Set Correctly</h2>
+<p>A GitHub token is required to publish the HTML &ldquo;bundle&rdquo; files to GitHub Pages. The permissions should be appropriately configured within the template, but to be sure, you can check the permissions by navigating to the &ldquo;Settings&rdquo; tab of the repository, then going in &ldquo;Actions&rdquo; and &ldquo;General&rdquo;, ensuring that <strong>Read and write permissions</strong> is selected:</p>
+<p><img src="sshot2-github-token-permissions.png" alt="Screenshot of the GitHub Actions token permission configuration page"></p>
+<h2 id="step-3-ensure-github-pages-is-deploying-from-the-gh-pages-branch">Step 3: Ensure GitHub Pages Is Deploying From The <code>gh-pages</code> Branch</h2>
+<p>The <code>integrimark-publish-action</code> GitHub Action will publish the HTML &ldquo;bundle&rdquo; files to GitHub Pages, and it expects the <code>gh-pages</code> branch to be the source of the GitHub Pages deployment.</p>
+<p>Normally this will be enforced automatically once the <code>gh-pages</code> branch is created by the GitHub Actions. But should there be any issue, you can manually check this by navigating to the &ldquo;Settings&rdquo; tab of the repository, then going in &ldquo;Pages&rdquo;, and ensuring that the <code>gh-pages</code> branch is selected as the source:</p>
+<p><img src="sshot3-github-pages-deployment.png" alt="Screenshot of the GitHub Pages deployment panel"></p>
+<h2 id="step-4-ensure-the-passwordsjson-file-is-being-updated">Step 4: Ensure The <code>passwords.json</code> File Is Being Updated</h2>
+<p>The <code>integrimark-publish-action</code> GitHub Action will continuously update the <code>passwords.json</code> file to the private repository&mdash;the file should be updated a few minutes after a new commit with new or updated PDF files.</p>
+<p>The <code>passwords.json</code> file is used to store the passwords for the PDF files, and it is required for the <code>integrimark</code> command line tool to generate the HTML &ldquo;bundle&rdquo; files.</p>
+<p><img src="sshot4-integrimark-passwords_json.png" alt="Screenshot of the redacted content of a passwords.json IntegriMark file"></p>
+<h2 id="step-5-send-your-mailings">Step 5: Send Your Mailings</h2>
+<p>Once your vault is properly configured, you can send the links. One easy way to do this, is to use the <code>mail</code> command from the <code>integrimark</code> command line tool. You can <a href="[%60integrimark-vault-template%60]%28https://github.com/integrimark/integrimark-vault-template%29">read more about this in the <code>integrimark-vault-template</code> project</a>, which will result in emails such as this one:</p>
+<p><img src="sshot5-sample-mailing.png" alt="Sample IntegriMark Email"></p>
 
 </div>
 
