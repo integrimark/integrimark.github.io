@@ -12,7 +12,7 @@
 
 <link rel="stylesheet" href="https://integrimark.github.io/css/style.1f963fa2b4b46bc9e13b76d9fda2fbc5770ad459c51d403d92993de8480deed8642a921298d6bbf5b5e3de71501c52677d3fd9eea7f66f61fe596bdf640e88ee.css" media="screen" integrity="sha512-H5Y/orS0a8nhO3bZ/aL7xXcK1FnFHUA9kpk96EgN7thkKpISmNa79bXj3nFQHFJnfT/Z7qf2b2H&#43;WWvfZA6I7g==" crossorigin="anonymous">
 
-    <title>Getting started with IntegriMark</title>
+    <title>Getting Started with IntegriMark</title>
 
 <meta name="description" content="Walking through an example repository to understand how to setup IntegriMark.">
 
@@ -27,14 +27,14 @@
 
 
 
-<meta property="og:title" content="Getting started with IntegriMark" />
+<meta property="og:title" content="Getting Started with IntegriMark" />
 <meta property="og:description" content="Walking through an example repository to understand how to setup IntegriMark." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://integrimark.github.io/page/sample-walkthrough/" />
   <meta property="article:section" content="page" />
   
   
-    <meta property="article:modified_time" content="2024-02-24T10:15:48-05:00" />
+    <meta property="article:modified_time" content="2024-03-05T13:18:14-05:00" />
   
 
 
@@ -43,7 +43,7 @@
 
 
 <meta name="twitter:card" content="summary"/>
-  <meta name="twitter:title" content="Getting started with IntegriMark"/>
+  <meta name="twitter:title" content="Getting Started with IntegriMark"/>
 <meta name="twitter:description" content="Walking through an example repository to understand how to setup IntegriMark."/>
 
 
@@ -61,15 +61,15 @@
 {
   "@context": "https://schema.org",
   "@type": "Article",
-  "headline": "Getting started with IntegriMark",
+  "headline": "Getting Started with IntegriMark",
   "datePublished": "0001-01-01T00:00:00+00:00",
-  "dateModified": "2024-02-24T10:15:48-05:00",
+  "dateModified": "2024-03-05T13:18:14-05:00",
   "mainEntityOfPage": "https://integrimark.github.io",
   "publisher": {
     "@type": "Organization",
     "name": "IntegriMark"
   },
-  "wordcount" :  0 ,
+  "wordcount" :  168 ,
   "description": "Walking through an example repository to understand how to setup IntegriMark.",
   "keywords":  null 
 }
@@ -127,10 +127,30 @@
         
 
 <div class="container py-3">
-  <p><img src="sshot1-integrimark-worflow.png" alt="Screenshot of the sample"></p>
+  <h1 id="getting-started-with-integrimark">Getting Started with IntegriMark</h1>
+<p>In this guide, we will walk through an example repository to understand how to setup IntegriMark using <a href="https://github.com/integrimark/integrimark-publish-action" target="_blank" rel="noopener">the <code>integrimark-publish-action</code> GitHub Action</a>.</p>
+<p>Recall that IntegriMark can be run in two different ways:</p>
+<ul>
+<li>
+<p>Either it can be run manually on a local computer (following the instructions on the <a href="https://github.com/integrimark/integrimark/" target="_blank" rel="noopener">IntegriMark GitHub repository</a>).</p>
+<ul>
+<li>In this scenario, the <code>integrimark</code> command line tool is used to generate the HTML &ldquo;bundle&rdquo; files and the <code>passwords.json</code> locally, and the bundle can then be published to GitHub Pages.</li>
+</ul>
+</li>
+<li>
+<p>Or it can be run automatically from a repository using continuous integration and the <code>integrimark-publish-action</code> GitHub Action.</p>
+<ul>
+<li>In this scenario, all files are uploaded to a private repository, and the <code>integrimark-publish-action</code> GitHub Action continuously updates the <code>passwords.json</code> file to the private repository, and publishes the HTML &ldquo;bundle&rdquo; files to GitHub Pages.</li>
+</ul>
+</li>
+</ul>
+<p>In this guide we will be using the second scenario, and we will walk through the steps to set up a repository to use the <code>integrimark-publish-action</code> GitHub Action.</p>
+<h2 id="step-1-create-a-new-repository">Step 1: Create a new repository</h2>
+<p><img src="sshot1-integrimark-worflow.png" alt="Screenshot of the sample"></p>
 <p><img src="sshot2-github-token-permissions.png" alt="Screenshot of the sample"></p>
 <p><img src="sshot3-github-pages-deployment.png" alt="Screenshot of the sample"></p>
 <p><img src="sshot4-integrimark-passwords_json.png" alt="Screenshot of the sample"></p>
+<p><img src="sshot5-sample-mailing.png" alt="Screenshot of the sample"></p>
 
 </div>
 
