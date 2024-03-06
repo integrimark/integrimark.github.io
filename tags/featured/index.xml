@@ -27,6 +27,14 @@ In this scenario, the integrimark command line tool is used to generate the HTML
 Purpose and Design Rationale: Addressing Systemic Disadvantages in Academia: IntegriMark is designed to mitigate the compounded systemic disadvantages faced by unprivileged students in academia. Privileged students often have access to resources and prior knowledge that unprivileged students lack. This disparity is exacerbated when unprivileged students are not given access to solutions that could aid their learning, further entrenching educational inequalities.</description>
     </item>
     <item>
+      <title>Sample Use Case</title>
+      <link>https://integrimark.github.io/page/use-case/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://integrimark.github.io/page/use-case/</guid>
+      <description>Sample Use Case IntegriMark is designed to be used to share class materials in a way that reduces (but doesn&amp;rsquo;t completely remove) the likelihood these materials will be shared.
+Most systems (such as Google Drive, Canvas, website distribution) that instructors have access to, allow for the control of access to documents. However, once a document is downloaded, it can be shared with anyone. IntegriMark is designed to make it more difficult to share documents once they are downloaded, by dynamically adding a watermark to each document, as well as a clear disclaimer that sharing the document is a course violation.</description>
+    </item>
+    <item>
       <title>Sample Watermarked Document</title>
       <link>https://integrimark.github.io/page/sample-watermarked-document/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

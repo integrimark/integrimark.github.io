@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="en">
+<head>
+    
+
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+<meta http-equiv='Content-Security-Policy' content="script-src 'self'; style-src 'self' 'unsafe-inline'; object-src 'none'; base-uri 'none'">
+    
+
+<link rel="stylesheet" href="https://integrimark.github.io/css/style.1f963fa2b4b46bc9e13b76d9fda2fbc5770ad459c51d403d92993de8480deed8642a921298d6bbf5b5e3de71501c52677d3fd9eea7f66f61fe596bdf640e88ee.css" media="screen" integrity="sha512-H5Y/orS0a8nhO3bZ/aL7xXcK1FnFHUA9kpk96EgN7thkKpISmNa79bXj3nFQHFJnfT/Z7qf2b2H&#43;WWvfZA6I7g==" crossorigin="anonymous">
+
+    <title>Sample Use Case</title>
+
+<meta name="description" content="An overview of how IntegriMark might be used in a class.">
+
+
+
+<link rel="canonical" href="https://integrimark.github.io/page/use-case/" />
+
+
+<link rel="alternate" hreflang="en" href="https://integrimark.github.io/page/use-case/" />
+<link rel="alternate" hreflang="x-default" href="https://integrimark.github.io/page/use-case/" />
+
+
+
+
+<meta property="og:title" content="Sample Use Case" />
+<meta property="og:description" content="An overview of how IntegriMark might be used in a class." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://integrimark.github.io/page/use-case/" />
+  <meta property="article:section" content="page" />
+  
+  
+    <meta property="article:modified_time" content="2024-03-06T16:32:29-05:00" />
+  
+
+
+
+
+
+
+<meta name="twitter:card" content="summary"/>
+  <meta name="twitter:title" content="Sample Use Case"/>
+<meta name="twitter:description" content="An overview of how IntegriMark might be used in a class."/>
+
+
+
+
+
+
+  
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Sample Use Case",
+  "datePublished": "0001-01-01T00:00:00+00:00",
+  "dateModified": "2024-03-06T16:32:29-05:00",
+  "mainEntityOfPage": "https://integrimark.github.io",
+  "publisher": {
+    "@type": "Organization",
+    "name": "IntegriMark"
+  },
+  "wordcount" :  1157 ,
+  "description": "An overview of how IntegriMark might be used in a class.",
+  "keywords":  null 
+}
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<link rel="icon" type="image/svg+xml" href="https://integrimark.github.io/favicon.svg">
+<link rel="icon" type="image/png" href="https://integrimark.github.io/favicon.png">
+
+</head>
+
+<body class="page single d-flex flex-column min-vh-100"><header class="main-header">
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+
+      
+      <a class="navbar-brand" href="/">
+        
+        IntegriMark
+      </a>
+
+      
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="menu-main navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="/contact/" title='Contact' aria-label='Contact'>Contact</a>
+          </li>
+          
+          </ul>
+
+        
+        
+        
+
+      </div>
+    </div>
+  </nav>
+</header><div id="content">
+        
+
+<div class="container py-3">
+  <h1 id="sample-use-case">Sample Use Case</h1>
+<p>IntegriMark is designed to be used to share class materials in a way that reduces (but doesn&rsquo;t completely remove) the likelihood these materials will be shared.</p>
+<p>Most systems (such as Google Drive, Canvas, website distribution) that instructors have access to, allow for the control of access to documents. However, once a document is downloaded, it can be shared with anyone. IntegriMark is designed to make it more difficult to share documents once they are downloaded, by dynamically adding a watermark to each document, as well as a clear disclaimer that sharing the document is a course violation.</p>
+<p>➡️ An instructor might create a private repository on GitHub from our <a href="https://github.com/integrimark/integrimark-vault-template" target="_blank" rel="noopener"><code>integrimark-vault-template</code></a> and upload their course materials to it, to serve an IntegriMark from GitHub Pages.</p>
+<p>➡️ They can then either use:</p>
+<ul>
+<li><strong>Synchronous Distribution:</strong> Blast a list (CSV or Google Spreadsheets) of students with links to all solutions available—and perhaps a weekly blast with updated solutions.
+<ul>
+<li>This is a simple solution, it does not require external APIs (in the CSV case), and the mailings can be triggered from a local computer.</li>
+</ul>
+</li>
+<li><strong>On-Demand Distribution:</strong> Provide students with a link to a Google Forms to request specific solutions, and then an automated mailer with the corresponding links is sent to them shortly thereafter.
+<ul>
+<li>This solution provides a request log of which students have requested which solutions, and when. It also makes it easier to have students on different schedules, and to provide solutions to students who join the class late, or who have extensions to their deadlines. It requires using request a Google API key and setting up a Google Cloud Project, and is a bit more cumbersome (though still easy) to set up.</li>
+</ul>
+</li>
+</ul>
+<h2 id="technological-protections-of-integrimark">Technological Protections of IntegriMark</h2>
+<ul>
+<li>
+<p><strong>Controlled Distribution via Email.</strong> IntegriMark ensures that materials can only be received via email, which allows for tracking and identification of each recipient.</p>
+</li>
+<li>
+<p><strong>Personalized Watermarking.</strong> Each document is watermarked with the recipient&rsquo;s email address, enabling the tracing of leaked materials back to the original recipient.</p>
+</li>
+<li>
+<p><strong>Embedded Sharing Disclaimer.</strong> A watermarked disclaimer is added to each document, clearly stating that sharing the materials is a violation of course policies. This ensures that both the original recipient and any subsequent recipients are aware of the consequences of sharing.
+<img src="disclaimer.png" alt="Screenshot of the disclaimer"></p>
+</li>
+<li>
+<p><strong>Prevention of Copy and Paste.</strong> IntegriMark implements copy protection measures to prevent users from easily copying and pasting content from the protected documents into new files.</p>
+</li>
+<li>
+<p><strong>Secure Storage and Dynamic Watermarking.</strong> All materials are stored in an encrypted format, and watermarks are applied dynamically when the document is accessed. This approach ensures that the original files are not easily accessible to unauthorized users.</p>
+</li>
+<li>
+<p><strong>Robust Hosting Infrastructure.</strong> IntegriMark is hosted on state-of-the-art infrastructure, minimizing the risk of system compromise and unauthorized access to course materials.</p>
+</li>
+</ul>
+<h2 id="suggested-complementary-policy-protections">Suggested Complementary Policy Protections</h2>
+<p>These technological protections are not all encompassing, and are intended to be complemented by better communication with students about the lifecycle of course materials, the value of an education, and the consequences of sharing materials. For instance:</p>
+<ul>
+<li><strong>The Difficulty of Creating Good Assessments.</strong> Instructors should communicate that creating good assessments is time-consuming and difficult; and among all materials, authoring solutions to problems is the most time-consuming and difficult, because it&rsquo;s important to anticipate multiple scenarios to be comprehensive (and support TAs in grading equitably).</li>
+<li><strong>Opportunity Cost to the Instructor.</strong> Instructors should explain that when they are able to reuse materials, they are able to dedicate more time to improving these materials and creating new ones, and that this is a benefit to students.</li>
+<li><strong>The High Cost of College for Students.</strong> Instructors should explain that students incur a severe cost when they sign up for a class: They are both paying for the class financially, and they are paying for the class with their time. When students cheat on a significant portion of assessments in a course, they are warping their ability to derive value from the course, and are wasting a lot of their potential.</li>
+<li><strong>The Detriment of Enabling Cheating.</strong> Instructors should explain that anybody that abets cheating is enabling students to waste their potential&mdash;although the temporary relief from being able to cheat may seem like a benefit, it is a long-term detriment to the student&rsquo;s ability to derive value from their time in college. Anybody that is abetting cheating is preying on the vulnerability of students, and is not a friend to the student.</li>
+</ul>
+<p>While traditional academic integrity policies center on creating externalities (such as the threat of punishment), these suggested policies are intended to work on intrinsic motivation: To help students understand the value of their education and the consequences of cheating on their own potential.</p>
+<p>Rather than creating new consequences for academic dishonesty that may feel superficial to students, we advocate authentically communicating the real cost of academic dishonesty.</p>
+<p>Here are some refined bullet points that provide more specific and actionable suggestions for reducing the pressure students feel to cheat:</p>
+<h2 id="additional-recommended-measures">Additional Recommended Measures</h2>
+<p>The research literature on plagiarism in computer science (see Albluwi 2018) suggests that for most students, plagiarism can be explained by the Triangle of Fraud: Pressure, Rationalization, and Opportunity. IntegriMark is designed to reduce the opportunity for students to share materials, and to make it more difficult for students to rationalize sharing materials. However, it is not designed to reduce the pressure that students feel to cheat. This is a dimension on which the instructor&rsquo;s other policies and communications can have a significant impact. For instance, instructors can reduce the pressure to cheat by:</p>
+<ul>
+<li>
+<p><strong>Offering Multiple Assessment Types.</strong> Instructors can diversify assessment types (e.g., projects, essays, presentations) to cater to different learning styles and reduce the pressure associated with high-stakes exams.</p>
+</li>
+<li>
+<p><strong>Implementing Flexible Deadlines.</strong> Instructors can provide more time for assessments and adopt an open-door policy to discuss extensions, ensuring that each student has the time they need to complete their work without resorting to cheating.</p>
+</li>
+<li>
+<p><strong>Providing Targeted Support.</strong> Instructors can offer targeted support, such as tutorials, study groups, and office hours, to help students build their skills and confidence, reducing the pressure to cheat when faced with challenging assignments.</p>
+</li>
+<li>
+<p><strong>Allowing Multiple Attempts.</strong> Instructors can provide multiple opportunities for students to demonstrate their knowledge and skills, such as allowing them to resubmit assignments or retake exams, thereby reducing the pressure associated with a single, high-stakes assessment.</p>
+</li>
+<li>
+<p><strong>Offering Constructive Feedback.</strong> Instructors can provide timely, constructive feedback on assessments, focusing on areas for improvement and growth rather than solely on grades, to help students learn from their mistakes and feel less pressure to cheat in order to achieve a desired grade.</p>
+</li>
+<li>
+<p><strong>Emphasizing Mastery Over Perfection.</strong> Instructors can foster a growth mindset by emphasizing the importance of mastery and learning from mistakes, rather than perfection, to reduce the pressure students feel to cheat in order to maintain a flawless academic record.</p>
+</li>
+<li>
+<p><strong>Encouraging Creative Problem-Solving.</strong> Instructors can design assessments that encourage creative problem-solving and unique solutions, reducing the pressure to cheat by making it more difficult for students to find ready-made answers or solutions.</p>
+</li>
+</ul>
+
+</div>
+
+
+    </div>
+    <footer class="py-3 mt-auto bg-light">
+  <div class="container py-1 my-1">
+    <div class="d-flex flex-wrap justify-content-between align-items-center">
+      <p class="col-md mb-0 text-muted">Open-source <a class="text-muted text-decoration-none" href="https://github.com/integrimark/integrimark/blob/main/LICENSE.md">LGPLv3</a> Licensed. Theme by <a class="text-muted text-decoration-none" href="https://github.com/filipecarneiro/hugo-bootstrap-theme">Filipe Carneiro</a>.</p>
+      <ul class="nav col-md-auto justify-content-end">
+        <li class="nav-item"><a href="/code-of-conduct/" class="nav-link px-2 text-muted" title='Code of Conduct' aria-label='Code of Conduct'>Code of Conduct</a></li>
+        <li class="nav-item"><a href="/privacy-policy/" class="nav-link px-2 text-muted" title='Privacy Policy' aria-label='Privacy Policy'>Privacy Policy</a></li>
+        </ul>
+    </div>
+  </div>
+</footer>
+    
+
+
+
+
+
+    <script src="/js/main.min.e8d88c82c0438b527f1aca4115652ba1e2877bf805b75593b23ac0e3fe2b3fe95a467d1feef275355132ba061da6404b0d24d55afabc209b294b1db043be014d.js" integrity="sha512-6NiMgsBDi1J/GspBFWUroeKHe/gFt1WTsjrA4/4rP&#43;laRn0f7vJ1NVEyugYdpkBLDSTVWvq8IJspSx2wQ74BTQ==" crossorigin="anonymous" defer></script>
+  
+  
+
+
+
+</body>
+</html>

@@ -57,6 +57,14 @@ Purpose and Design Rationale: Addressing Systemic Disadvantages in Academia: Int
 Website visitors No personal information is collected. No information is stored in the browser. No information is shared with, sent to or sold to third-parties. No information is shared with advertising companies. No information is mined and harvested for personal and behavioral trends. No information is monetized. Information we collect and what we use it for The server hosting this site can collect the following information:</description>
     </item>
     <item>
+      <title>Sample Use Case</title>
+      <link>https://integrimark.github.io/page/use-case/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://integrimark.github.io/page/use-case/</guid>
+      <description>Sample Use Case IntegriMark is designed to be used to share class materials in a way that reduces (but doesn&amp;rsquo;t completely remove) the likelihood these materials will be shared.
+Most systems (such as Google Drive, Canvas, website distribution) that instructors have access to, allow for the control of access to documents. However, once a document is downloaded, it can be shared with anyone. IntegriMark is designed to make it more difficult to share documents once they are downloaded, by dynamically adding a watermark to each document, as well as a clear disclaimer that sharing the document is a course violation.</description>
+    </item>
+    <item>
       <title>Sample Watermarked Document</title>
       <link>https://integrimark.github.io/page/sample-watermarked-document/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
